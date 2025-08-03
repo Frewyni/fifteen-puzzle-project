@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#puzzle-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.tile {
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 32pt;
+  border: 2px solid black;
+  box-sizing: border-box;
+  float: left;
+  background-image: url("background.jpg");
+  background-size: 400px 400px;
+  color: black;
+}
+
+
+.movablepiece {
+    border-color: red;
+    color: #006600;
+    text-decoration: underline;
+}
